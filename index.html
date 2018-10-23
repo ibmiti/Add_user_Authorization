@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body >
+    <h2>Add a User:</h2>
+    <form id="user-add" method="post">
+        <fieldset>
+            <input id="user-name" type="text" name="username" placeholder="name" required="required" />
+            <input id="user-email" type="email" name="email" placeholder="email" required="required" />
+            <button id="user-submit" type="submit">add user</button>
+        </fieldset>
+    </form>
+    <h2>Users:</h2>
+    <ul id="users"></ul>
+    <script
+  src="https://code.jquery.com/jquery-1.9.1.min.js"
+  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
